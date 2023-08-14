@@ -1,54 +1,54 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Streamline Servers - Docs",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/assets/logo.svg",
+    "light": "/assets/logo.svg"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/assets/favicon.svg",
   "colors": {
-    "primary": "#9563FF",
-    "light": "#AE87FF",
-    "dark": "#0D001D",
-    "background": {
-      "dark": "#090014"
-    },
+    "primary": "#8fe211",
+    "light": "#7cc214",
+    "dark": "#8fe211",
     "anchors": {
-      "from": "#FF7F57",
-      "to": "#9563FF"
+      "from": "#8fe211",
+      "to": "#57880c"
     }
+  },
+ "backgroundImage": "/assets/background.webp",
+ "modeToggle": {
+    "default": "dark",
+    "isHidden": true
   },
   "topbarLinks": [
     {
+      "name": "Billing",
+      "url": "https://billing.streamline-servers.com"
+    },
+    {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://billing.streamline-servers.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Home",
+    "url": "https://streamline-servers.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
+      "name": "Game Panel",
+      "url": "api-reference"
+    },
+    {
+      "name": "Dedicated Servers",
       "url": "api-reference"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Order Game Server",
+      "icon": "cart-shopping",
+      "url": "https://streamline-servers.com/game-servers"
     }
   ],
   "navigation": [
@@ -75,8 +75,8 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/StreamServers",
+    "facebook": "https://facebook.com/StreamlineServers",
+    "discord": "https://discord.com/invite/u2tt6mm"
   }
 }
